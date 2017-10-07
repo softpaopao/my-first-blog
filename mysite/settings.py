@@ -25,7 +25,7 @@ SECRET_KEY = 'n&%^i0pos3w4q-afko$g@0k@@yu@@$6$#i8mpox5@p8_y8o3zl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['softpaopao.pythonanywhere.com']
 
 
 # Application definition
@@ -88,7 +88,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Aisa/Shanghai'
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
